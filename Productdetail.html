@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+<!DOCTYPE html>
+<html>
+<head>
+<title> Product Detail Design Using Bootstrap 4.0 </title>
+<link rel="stylesheet" href="	https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> 
+  <script src="	https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" type="text/css" href="./css/Productdetail.css">
+<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+<script src="./zoom-master/jquery.zoom.js"></script>
+</head>
+<body>
+<div class="menu-bar bg-light" style="overflow: initial;text-align: center; ">
+            <!--Navigation Var-->
+            <nav class="navbar navbar-expand-sm navbar-light">   <a class="navbar-brand" href="#"><img class="rounded-circle" src="./image/logo3.jpg" alt="logo" style="width: 50px;" /></a>
+                <!--Toggle Collapse Button--> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+                <!--Division for navbar-->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!--UL for links-->
+                    <ul class="navbar-nav mr-auto">
+                        <!-- Catagory 1-->
+                        <li class="nav-item dropdown"> <a class="nav-link toggle catogary" href="HomePage.html"  role="button" aria-haspopup="true" aria-expanded="false"> <strong> Trang chủ </strong> </a>
+                            
+                        </li> <!-- Catagory 2-->
+                        <li class="nav-item dropdown"> <a class="nav-link toggle catogary" href="News.html"  role="button" aria-haspopup="true" aria-expanded="false"> <strong> Tin Tức</strong> </a>
+                          
+                        </li> <!-- Catagory 3-->
+                        <li class="nav-item dropdown"> <a class="nav-link toggle catogary" href="Product.html"  role="button" aria-haspopup="true" aria-expanded="false"> <strong>Sản Phẩm</strong> </a>
+                            <!--Div for catogary 3-->
+                        </li> <!-- Catagory 4-->
+                        <li class="nav-item dropdown"> <a class="nav-link toggle catogary" href="Contact.html"  role="button"  aria-haspopup="true" aria-expanded="false"> <strong>Liên hệ</strong> </a>
+                        </li>
+                    </ul>
+                   
+                </div>
+            </nav>
+            </div>
+
+        <!--   <div class="row">
+              <div class="col">
+                <div class="card" style="width: 20rem;">
+          <img class="card-img-top" src="http://www.azspagirls.com/files/2010/09/orange.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Orange</h4>
+            <p class="card-text">Price: $0.5</p>
+            <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+          </div>
+          <span class='zoom col-lg-4 left-side-product-box pb-3' id='ex1'>
+            <img src='./image/sp1.png' width='555' height='320' alt='SP1'/>
+          </span>
+          --> 
+          <div class="row">
+            <div class="col">
+              <button type="button" style="background-color:#007bff;" class="btn btn-primary" data-toggle="modal" data-target="#cart">Giỏ Hàng (<span class="total-count"></span>)</button><button style="background-color: red;color:white;" class="clear-cart btn">Xóa Giỏ</button></div>
+        </div>
+  
+<div class="container">
+<div class="col-lg-10 border p-3 main-section bg-white">
+<div class="row m-0">
+
+<span class="zoom col-md-4 left-side-product-box pb-3" id='ex1'>
+  <img src='./image/sp1.png' width='555' height='320' alt='SP1'/>
+</span>
+
+<div class="col-md-8" style="text-align:center;">
+<div class="right-side-pro-detail border p-3 m-0">
+<div class="row">
+<div class="col-lg-12">
+  <h4 class="card-title">Trà Sữa</h4>
+</div>
+
+
+<div class="col-lg-12">
+  <p class="card-text">Giá: 30.343 VND</p>
+<hr class="p-0 m-0">
+</div>
+<div class="col-lg-12 pt-2">
+<h5>Thành phần và nguồn gốc</h5>
+<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris.</span><hr class="m-0 pt-2 mt-2">
+  <label><h5>Ghi chú</h5></label>
+  <input type="text" class="form-control w-100" value="..."/>
+
+<div class="col-lg-12 mt-3"style="text-align:center">
+<div class="row">
+<div class="col-lg-12 pb-2 " >
+<a href="#" data-name="TràSữa" data-price="30.343" class="add-to-cart btn btn-danger w-100">Thêm vào giỏ hàng</a>
+
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="container">
+  <div class="be-comment-block">
+    <h1 class="comments-title">Comments (3)</h1>
+    <div class="be-comment">
+      <div class="be-img-comment">	
+        <a href="blog-detail-2.html">
+          <img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="" class="be-ava-comment">
+        </a>
+      </div>
+      <div class="be-comment-content">
+        
+          <span class="be-comment-name">
+            <a href="blog-detail-2.html">Thanh Long</a>
+            </span>
+          <span class="be-comment-time">
+            <i class="fa fa-clock-o"></i>
+            May 27, 2015 at 3:14am
+          </span>
+  
+        <p class="be-comment-text">
+          Trà sữa loại này uống rất ngon!!!
+        </p>
+      </div>
+    </div>
+    <div class="be-comment">
+      <div class="be-img-comment">	
+        <a href="blog-detail-2.html">
+          <img src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="" class="be-ava-comment">
+        </a>
+      </div>
+      <div class="be-comment-content">
+        <span class="be-comment-name">
+          <a href="blog-detail-2.html">Bạch Hổ</a>
+        </span>
+        <span class="be-comment-time">
+          <i class="fa fa-clock-o"></i>
+          May 27, 2015 at 3:14am
+        </span>
+        <p class="be-comment-text">
+          Cho mình hỏi khi nào quán có loại trà sữa mè đen
+        </p>
+      </div>
+    </div>
+    <div class="be-comment">
+      <div class="be-img-comment">	
+        <a href="blog-detail-2.html">
+          <img src="https://bootdey.com/img/Content/avatar/avatar3.png" alt="" class="be-ava-comment">
+        </a>
+      </div>
+      <div class="be-comment-content">
+        <span class="be-comment-name">
+          <a href="blog-detail-2.html">Huyền vũ</a>
+        </span>
+        <span class="be-comment-time">
+          <i class="fa fa-clock-o"></i>
+          May 27, 2015 at 3:14am
+        </span>
+        <p class="be-comment-text">
+         Mình cho 5 sao vì trà sữa và bánh rất ngon <3
+        </p>
+      </div>
+    </div>
+    <form class="form-block">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6">
+          <div class="form-group fl_icon">
+            <div class="icon"><i class="fa fa-user"></i></div>
+            <input class="form-input" type="text" placeholder="Your name">
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 fl_icon">
+          <div class="form-group fl_icon">
+            <div class="icon"><i class="fa fa-envelope-o"></i></div>
+            <input class="form-input" type="text" placeholder="Your email">
+          </div>
+        </div>
+        <div class="col-sm-12">									
+          <div class="form-group">
+            <textarea class="form-input" required="" placeholder="Your text"></textarea>
+          </div>
+        </div>
+        <a class="btn btn-primary pull-right">submit</a>
+      </div>
+    </form>
+  </div>
+  </div>
+<div class="row">
+<div class="col-lg-12 text-center pt-3">
+<h1 style="text-align: center;">SẢN PHẨM LIÊN QUAN</h1>
+</div>
+</div>
+
+
+
+<div class="row" style="padding:20px; text-align:center;">
+      <div class="col-sm-6 col-lg-3 product-item">  
+	  <div class="card">
+  <img src="https://www.phuclong.com.vn/uploads/dish/90405a9f256f11-cafe5mon04.png" alt="Avatar" style="width:100%;height:250px;">
+  <div class="container">
+    <h4><b>Cappuchinno</b></h4> 
+    <p>43.867</p> 
+	 <button class="snip1582">Đặt Mua</button>
+  </div>
+</div> </div>
+      <div class=" col-sm-6 col-lg-3 product-item"> 
+	  <div class="card">
+  <img src="https://www.phuclong.com.vn/uploads/dish/010dda166794bc-trxanhxayphclong.png" alt="Avatar" style="width:100%;height:250px;">
+  <div class="container">
+    <h4><b>Trà Xanh Đá Xay</b></h4> 
+    <p>58.479</p> 
+	 <button class="snip1582">Đặt Mua</button>
+  </div>
+</div>  </div>
+      <div class="col-sm-6 col-lg-3 product-item">  
+	  <div class="card">
+  <img src="https://www.phuclong.com.vn/uploads/dish/16f40311f8a57e-davdupphclong.png" alt="Avatar" style="width:100%;height:250px;">
+  <div class="container">
+    <h4><b>Thơm Và Dâu Ép</b></h4> 
+    <p>48.342</p> 
+	 <button class="snip1582">Đặt Mua</button>
+  </div>
+</div></div>
+      <div class="col-sm-6 col-lg-3 product-item">
+	  <div class="card">
+  <img src="https://www.phuclong.com.vn/uploads/dish/a1c4d22a41ec76-banhphap_0003s_0000_chocobuttercroissant.jpg" alt="Avatar" style="width:100%;height:250px;">
+  <div class="container">
+    <h4><b>Butter Chocolate</b></h4> 
+    <p>21.400đ</p> 
+	 <button class="snip1582">Đặt Mua</button>
+  </div>
+</div> 
+ </div>
+    </div>
+</div>
+  </div>
+
+</div>
+
+
+<div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Giỏ hàng</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <table class="show-cart table">
+          
+        </table>
+        <div>Total price:<span class="total-cart"></span>VND</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+        <button type="button" class="btn btn-primary">Đặt Ngay</button>
+      </div>
+    </div>
+  </div>
+  </div> 
+  
+
+<script lang="javascript" src="./js/Productdetail.js"></script>
+
+</body>
+</html>

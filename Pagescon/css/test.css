@@ -1,0 +1,22 @@
+.related a{
+    background-color: transparent;
+    color: black;
+		padding: 5px 0;
+		margin: 0;
+		position: relative;
+		display: block;
+		border-bottom: 1px solid black;
+		text-transform: uppercase;
+		font-weight:200;
+}
+.related li a:hover{
+    text-decoration: none;
+    color: rgb(211, 224, 24);
+    
+  }
+
+.related a, a:link, a:active, a:visited {
+    color: #333;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
